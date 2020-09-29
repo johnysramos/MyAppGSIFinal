@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyAppGSI Final</string>
+    <string name="video1_buttonName">Vídeo 1</string>
+    <string name="video2_buttonName">Vídeo 2</string>
+    <string name="game1_buttonName">Crie uma senha segura</string>
+    <string name="game2_buttonName">Jogo 2</string>
+    <string name="game3_buttonName">Jogo 3</string>
+
+    <string name="valid_password_ref">Uma senha segura deve atender aos segintes requisitos:\n
+    - Conter letras minúsculas;\n
+    - Conter letras maiúsculas;\n
+    - Conter números;\n
+    - Conter caracteres especiais como por ex: @, #, $, %;\n
+    - Conter no mínimo 8 caracteres.\n
+    Exemplo de senha segura: M1nh@S3nh@.</string>
+    <string name="type_your_pwd">Digite sua senha</string>
+    <string name="bt_valid_pwd">Verificar</string>
+    <string name="label_pwd_typed">Senha digitada:</string>
+
+    <string name="valid_pwd">A senha é segura!</string>
+    <string name="invalid_pwd">A senha NÃO é segura!</string>
+    <string name="hasMoreThan7">Contém no mínimo 8 carácteres</string>
+    <string name="hasLowerCase">Contém letra minúscula</string>
+    <string name="hasUpperCase">Contém letra maiúscula</string>
+    <string name="hasNum">Contém número</string>
+    <string name="hasSpecialChar">Contém carácter especial</string>
+</resources>
