@@ -3,6 +3,7 @@ package com.example.myappgsifinal;
 import androidx.appcompat.app.AppCompatActivity;
 
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ public class CreatePassword extends AppCompatActivity {
         setContentView(R.layout.activity_create_password);
     }
 
+    @SuppressLint("ResourceAsColor")
     public void validPwd(View view) {
         EditText pwd = (EditText) findViewById(R.id.pwd);
         TextView pwdView = (TextView) findViewById(R.id.pwdView);
@@ -64,12 +66,12 @@ public class CreatePassword extends AppCompatActivity {
             hasSpecialCharTxView.setText(R.string.hasSpecialChar);
             hasMoreThan7TxView.setText(R.string.hasMoreThan7);
 
-            result.setTextColor(0xFF007F00);
-            hasLowerCaseTxView.setTextColor(0xFF007F00);
-            hasUpperCaseTxView.setTextColor(0xFF007F00);
-            hasNumTxView.setTextColor(0xFF007F00);
-            hasSpecialCharTxView.setTextColor(0xFF007F00);
-            hasMoreThan7TxView.setTextColor(0xFF007F00);
+            result.setTextColor(getResources().getColor(R.color.Green));
+            hasLowerCaseTxView.setTextColor(getResources().getColor(R.color.Green));
+            hasUpperCaseTxView.setTextColor(getResources().getColor(R.color.Green));
+            hasNumTxView.setTextColor(getResources().getColor(R.color.Green));
+            hasSpecialCharTxView.setTextColor(getResources().getColor(R.color.Green));
+            hasMoreThan7TxView.setTextColor(getResources().getColor(R.color.Green));
         }
         else {
             result.setText(R.string.invalid_pwd);
@@ -79,41 +81,41 @@ public class CreatePassword extends AppCompatActivity {
             hasSpecialCharTxView.setText(R.string.hasSpecialChar);
             hasMoreThan7TxView.setText(R.string.hasMoreThan7);
 
-            result.setTextColor(0xCCA30000);
+            result.setTextColor(getResources().getColor(R.color.Red));
 
             if (hasLowerCase) {
-                hasLowerCaseTxView.setTextColor(0xFF007F00);
+                hasLowerCaseTxView.setTextColor(getResources().getColor(R.color.Green));
             }
             else {
-                hasLowerCaseTxView.setTextColor(0xCCA30000);
+                hasLowerCaseTxView.setTextColor(getResources().getColor(R.color.Red));
             }
 
             if (hasUpperCase) {
-                hasUpperCaseTxView.setTextColor(0xFF007F00);
+                hasUpperCaseTxView.setTextColor(getResources().getColor(R.color.Green));
             }
             else {
-                hasUpperCaseTxView.setTextColor(0xCCA30000);
+                hasUpperCaseTxView.setTextColor(getResources().getColor(R.color.Red));
             }
 
             if (hasNum) {
-                hasNumTxView.setTextColor(0xFF007F00);
+                hasNumTxView.setTextColor(getResources().getColor(R.color.Green));
             }
             else {
-                hasNumTxView.setTextColor(0xCCA30000);
+                hasNumTxView.setTextColor(getResources().getColor(R.color.Red));
             }
 
             if (hasSpecialChar) {
-                hasSpecialCharTxView.setTextColor(0xFF007F00);
+                hasSpecialCharTxView.setTextColor(getResources().getColor(R.color.Green));
             }
             else {
-                hasSpecialCharTxView.setTextColor(0xCCA30000);
+                hasSpecialCharTxView.setTextColor(getResources().getColor(R.color.Red));
             }
 
             if (hasMoreThan7) {
-                hasMoreThan7TxView.setTextColor(0xFF007F00);
+                hasMoreThan7TxView.setTextColor(getResources().getColor(R.color.Green));
             }
             else {
-                hasMoreThan7TxView.setTextColor(0xCCA30000);
+                hasMoreThan7TxView.setTextColor(getResources().getColor(R.color.Red));
             }
         }
     }
