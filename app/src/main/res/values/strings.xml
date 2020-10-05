@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">MyAppGSI Final</string>
+    <string name="app_name">MyData</string>
     <string name="video1_buttonName">Vídeo 1</string>
     <string name="video2_buttonName">Vídeo 2</string>
     <string name="game1_buttonName">Crie uma senha segura</string>
-    <string name="game2_buttonName">Jogo 2</string>
+    <string name="game2_buttonName">Quiz</string>
     <string name="game3_buttonName">Jogo 3</string>
 
     <string name="valid_password_ref">Uma senha segura deve atender aos segintes requisitos:\n
@@ -24,4 +24,16 @@
     <string name="hasUpperCase">Contém letra maiúscula</string>
     <string name="hasNum">Contém número</string>
     <string name="hasSpecialChar">Contém carácter especial</string>
+
+    <string name="messageStartQuiz">Esse é um quiz rápido de 10 questões para testar seu conhecimento sobre as melhores práticas e garantir a segurança dos seus dados. Clique no botão abaixo para começar.</string>
+    <string name="quizStartBt">Começar</string>
+    <string name="quizStartOverBt">Começar de novo</string>
+    <string name="quizNextQuestionBt">Próxima questão</string>
+    <string name="noCheckedRadioBtMessage">Por favor, selecione uma opção.</string>
+    <string name="inicialScreenBt">Voltar a tela inicial</string>
+    <string name="resultQuiz">O seu resultado foi:</string>
+    <string name="badNote">Seu desempenho não foi muito bom, procure se atualizar e conhecer as melhores práticas para garantir a segurança de seus dados.</string>
+    <string name="regularNote">Seu desempenho foi bom porém sempre da para melhorar. Procure se atualizar e conhecer as melhores práticas para garantir a segurança de seus dados.</string>
+    <string name="perfectNote">Você acertou todas!!! Continue assim para garantir a segurança de seus dados.</string>
+
 </resources>

@@ -19,4 +19,10 @@ public class MainActivity extends AppCompatActivity {
          startActivity(screen);
 
     }
+
+    public void OpenQuizScreen(View view) {
+        Intent screen = new Intent(this, Quiz.class);
+        startActivity(screen);
+
+    }
 }
