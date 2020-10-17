@@ -34,6 +34,8 @@ public class QuizQuestionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_questions);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         questionView = (TextView) findViewById(R.id.question);
         radioQuestions = (RadioGroup) findViewById(R.id.rgGroup);
         ans1 = (RadioButton) findViewById(R.id.ans1);

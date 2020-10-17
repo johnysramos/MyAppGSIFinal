@@ -27,6 +27,8 @@ public class FinalQuizActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_final_quiz);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         resultQuiz = findViewById(R.id.resultQuiz);
         comment = findViewById(R.id.comment);
         resultLayout = findViewById(R.id.resultLayout);
