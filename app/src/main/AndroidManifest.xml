@@ -9,10 +9,23 @@
         android:roundIcon="@mipmap/logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FinalQuizActivity"></activity>
-        <activity android:name=".QuizQuestionsActivity" />
-        <activity android:name=".Quiz" />
-        <activity android:name=".CreatePassword" />
+        <activity
+            android:name=".FiveAdvicesProtectedDataVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".FinalQuizActivity"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName=".Quiz"/>
+        <activity android:name=".QuizQuestionsActivity"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName=".Quiz"/>
+        <activity android:name=".Quiz"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CreatePassword"
+            android:label="@string/title_activity_create_password"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

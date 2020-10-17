@@ -25,4 +25,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(screen);
 
     }
+
+    public void OpenFiveAdvicesProtectedDataVideo(View view) {
+        Intent screen = new Intent(this, FiveAdvicesProtectedDataVideoActivity.class);
+        startActivity(screen);
+
+    }
 }
