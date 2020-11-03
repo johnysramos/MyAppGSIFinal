@@ -38,4 +38,10 @@
     <string name="title_activity_create_password">Crie uma senha segura</string>
     <string name="title_activity_quiz">Quiz</string>
 
+    <string name="gallows">A Forca</string>
+    <string name="head">A Cabeça</string>
+    <string name="body">O Corpo</string>
+    <string name="arm">Um Braço</string>
+    <string name="leg">Uma Perna</string>
+
 </resources>

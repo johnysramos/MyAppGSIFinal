@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="words">
+        <item>DISPONIBILIDADE</item>
+        <item>COMPUTADOR</item>
+        <item>INTEGRIDADE</item>
+        <item>ANTIVIRUS</item>
+        <item>MALWARE</item>
+        <item>INTERNET</item>
+        <item>CONFIDENCIALIDADE</item>
+        <item>SENHA</item>
+        <item>DADOS</item>
+        <item>SMARTPHONE</item>
+    </string-array>
+</resources>

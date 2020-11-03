@@ -13,7 +13,16 @@
             android:name=".FiveAdvicesProtectedDataVideoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/FullscreenTheme"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".HomeSecurityProtectedDataVideoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".GameActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity android:name=".FinalQuizActivity"
             android:label="@string/title_activity_quiz"
             android:parentActivityName=".Quiz"/>
