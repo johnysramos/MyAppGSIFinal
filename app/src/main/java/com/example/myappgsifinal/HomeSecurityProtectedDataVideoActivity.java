@@ -17,7 +17,7 @@ public class HomeSecurityProtectedDataVideoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_five_advices_protected_data_video);
+        setContentView(R.layout.activity_home_security_protected_data_video);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);

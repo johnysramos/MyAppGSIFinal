@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">MyData</string>
     <string name="video1_buttonName">5 Dicas para proteger seus dados pessoais</string>
-    <string name="video2_buttonName">Vídeo 2</string>
+    <string name="video2_buttonName">Perigos de segurança na Internet</string>
     <string name="game1_buttonName">Crie uma senha segura</string>
     <string name="game2_buttonName">Quiz</string>
-    <string name="game3_buttonName">Jogo 3</string>
+    <string name="game3_buttonName">Jogo da forca</string>
 
     <string name="valid_password_ref">Uma senha segura deve atender aos segintes requisitos:\n
     - Conter letras minúsculas;\n

@@ -17,18 +17,20 @@ public class MainActivity extends AppCompatActivity {
     public void OpenCreatePasswordScreen(View view) {
          Intent screen = new Intent(this, CreatePassword.class);
          startActivity(screen);
-
     }
 
     public void OpenQuizScreen(View view) {
         Intent screen = new Intent(this, Quiz.class);
         startActivity(screen);
-
     }
 
     public void OpenFiveAdvicesProtectedDataVideo(View view) {
         Intent screen = new Intent(this, FiveAdvicesProtectedDataVideoActivity.class);
         startActivity(screen);
+    }
 
+    public void OpenHomeSecurityProtectedDataVideo(View view) {
+        Intent screen = new Intent(this, HomeSecurityProtectedDataVideoActivity.class);
+        startActivity(screen);
     }
 }
