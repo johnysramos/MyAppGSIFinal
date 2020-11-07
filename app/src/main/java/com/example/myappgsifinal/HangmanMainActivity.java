@@ -1,30 +1,40 @@
 package com.example.myappgsifinal;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
-public class HangmanMainActivity extends AppCompatActivity implements OnClickListener {
+public class HangmanMainActivity extends Activity implements OnClickListener {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hangman_main);
-        Button playBtn = findViewById(R.id.playBtn);
-        playBtn.setOnClickListener(this);
+
+        Button bStart1 = (Button) findViewById(R.id.bStart1);
+        Button bStart2 = (Button) findViewById(R.id.bStart2);
+        Button bSair   = (Button) findViewById(R.id.bSair);
+        bStart1.setOnClickListener(this);
+        bStart2.setOnClickListener(this);
+        bSair.setOnClickListener(this);
     }
 
-    @Override
-    public void onClick(View view) {
-        //handle clicks
-        if (view.getId() == R.id.playBtn) {
-            Intent playIntent = new Intent(this, GameActivity.class);
-            this.startActivity(playIntent);
+    public void onClick(View v) {
+        Intent i = new Intent(HangmanMainActivity.this, GameActivity.class);
+        switch (v.getId()) {
+            case R.id.bStart1:
+                i.putExtra("tipo", "jogador1");
+                startActivity(i);
+                break;
+            case R.id.bStart2:
+                i.putExtra("tipo", "jogador2");
+                startActivity(i);
+                break;
+            case R.id.bSair:
+                finish();
         }
     }
 }

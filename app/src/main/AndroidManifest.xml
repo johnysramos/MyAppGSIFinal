@@ -21,6 +21,10 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".GameActivity"
+            android:parentActivityName=".HangmanMainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HangmanMainActivity"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".FinalQuizActivity"

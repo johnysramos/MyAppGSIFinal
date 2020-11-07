@@ -1,13 +1,12 @@
 package com.example.myappgsifinal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.VideoView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class HomeSecurityProtectedDataVideoActivity extends AppCompatActivity {
 
@@ -17,7 +16,7 @@ public class HomeSecurityProtectedDataVideoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_five_advices_protected_data_video);
+        setContentView(R.layout.activity_home_security_protected_data_video);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);

@@ -1,10 +1,10 @@
 package com.example.myappgsifinal;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,6 +28,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void OpenFiveAdvicesProtectedDataVideo(View view) {
         Intent screen = new Intent(this, FiveAdvicesProtectedDataVideoActivity.class);
+        startActivity(screen);
+
+    }
+
+    public void HomeSecurityProtectedDataVideo(View view) {
+        Intent screen = new Intent(this, HomeSecurityProtectedDataVideoActivity.class);
+        startActivity(screen);
+
+    }
+
+    public void HangmanMain(View view) {
+        Intent screen = new Intent(this, HangmanMainActivity.class);
         startActivity(screen);
 
     }
